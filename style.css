@@ -2,12 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #f32929;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('./assets/images/pexels-jonathan-borba-5732693.jpg');
+    background-repeat: no-repeat;
+    background-position: center center fixed;
 }
 
 ul {
     list-style: none;
+    font-style: italic;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 20px;
 }
