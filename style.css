@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #f32929;
+    color: #ff9100;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,6 +24,21 @@ a {
 
 #foto img {
     width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    padding: 5px;
 }
 
 .container {
