@@ -33,6 +33,7 @@ header {
     padding: 10px;
     /* border-bottom: 2px solid white; */
     box-shadow: 1px 1px 10px 1px white;
+    margin-bottom: 20px;
 }
 
 header ul {
@@ -93,7 +94,7 @@ header ul li a:hover {
     width: 40%;
     margin: 0 auto;
     padding: 25px;
-    border: thick double #fff;
+    /* border: thick double #fff; */
 }
 
 .form input {
@@ -121,4 +122,23 @@ header ul li a:hover {
 
 .form button:hover {
     background-position: left bottom;
+}
+
+@media only screen and (max-width: 480px) {
+    .container .name h1 {
+        font-size: 30px;
+    }
+
+    .container .name h5 {
+        font-size: 15px;
+    }
+
+    .about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+
+    .form {
+        width: 100%;
+    }
 }
