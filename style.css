@@ -52,6 +52,22 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
+.arrow img{
+    width: 20px;
+    cursor: pointer;
+    animation: blink 0.5s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        transform: rotate(180deg)
+    }
+}
+
+.active {
+    display: block !important;
+}
+
 .container {
     text-align: center;
 }
@@ -64,9 +80,9 @@ header ul li a:hover {
     font-size: 20px;
 }
 
-.container img {
+/* .container img {
     width: 10px;
-}
+} */
 
 .about p {
     max-width: 600px;
